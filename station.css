@@ -1,0 +1,19 @@
+#container {
+    margin: 50px;
+    padding: 20px;
+    width: 400px;
+    background-color:rgb(220, 147, 20);
+    border-radius: 10px;
+}
+body {
+    background-color:blanchedalmond;
+}
+#result {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:blanchedalmond;
+}
+label{
+    color:blanchedalmond;
+}

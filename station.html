@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Station Capacity Tracker</title>
+    <link rel="stylesheet" href="station.css">
+</head>
+<body>
+    <center>
+        <div id="container">
+            <h2 style="color:blanchedalmond">Train Tracker</h2>
+            <label for="station">Station Name: </label>
+            <input type="text" id="station" placeholder="Enter station name" required><br><br>
+            <label for="capacity">Station Capacity: </label>
+            <input type="number" id="capacity" placeholder="Enter capacity" required><br><br>
+            <label for="trains">Current Trains: </label>
+            <input type="number" id="trains" value="0" readonly><br><br>
+
+            <button onclick="addTrain()">Add Train</button>
+            <button onclick="removeTrain()">Remove Train</button>
+
+            <div id="result"></div>
+        </div>
+    </center>
+
+    <script src="station.js"></script>
+        
+</body>
